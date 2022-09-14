@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0e3c5e;
+  color: #afbbc8;
+}
+body .nav {
+  align-items: center;
+  background-color: #636d76;
+  color: #afbbc8;
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  justify-content: center;
+  margin: 0 0 20px;
+  width: 100%;
+}
+body .nav .nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  width: 100%;
+}
+body .nav .nav-ul li {
+  list-style: none;
+}
+body .nav .nav-ul li:hover {
+  color: white;
+}
+body .nav .nav-ul li a {
+  text-decoration: none;
+}
+body .nav .nav-ul li a:visited {
+  color: #afbbc8;
+}
+body .nav .nav-ul li:hover {
+  cursor: pointer;
+}
+body .title-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 10px 0;
+}
+body .title-wrapper h1 {
+  text-align: center;
+}
+body .base-description {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 100%;
+}
+body .base-description .base-description-paragraph-one {
+  display: flex;
+  flex-direction: row;
+}
+body .base-description .base-description-paragraph-one p {
+  margin: 0 0 15px;
+  text-align: justify;
+  text-indent: 2.5%;
+}
+body .base-description .base-description-paragraph-two,
+body .base-description .base-description-paragraph-three,
+body .base-description .base-description-paragraph-four,
+body .base-description .base-description-paragraph-five,
+body .base-description .base-description-paragraph-six,
+body .base-description .base-description-paragraph-seven,
+body .base-description .base-description-paragraph-eight,
+body .base-description .base-description-paragraph-nine,
+body .base-description .base-description-paragraph-ten,
+body .base-description .base-description-paragraph-eleven,
+body .base-description .base-description-paragraph-twelve,
+body .base-description .base-description-paragraph-thirteen {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px;
+}
+body .base-description .base-description-paragraph-two p,
+body .base-description .base-description-paragraph-three p,
+body .base-description .base-description-paragraph-four p,
+body .base-description .base-description-paragraph-five p,
+body .base-description .base-description-paragraph-six p,
+body .base-description .base-description-paragraph-seven p,
+body .base-description .base-description-paragraph-eight p,
+body .base-description .base-description-paragraph-nine p,
+body .base-description .base-description-paragraph-ten p,
+body .base-description .base-description-paragraph-eleven p,
+body .base-description .base-description-paragraph-twelve p,
+body .base-description .base-description-paragraph-thirteen p {
+  margin: 0 0 15px;
+  text-align: justify;
+  text-indent: 2.5%;
+}
+body .base-description .base-description-paragraph-two img,
+body .base-description .base-description-paragraph-three img,
+body .base-description .base-description-paragraph-four img,
+body .base-description .base-description-paragraph-five img,
+body .base-description .base-description-paragraph-six img,
+body .base-description .base-description-paragraph-seven img,
+body .base-description .base-description-paragraph-eight img,
+body .base-description .base-description-paragraph-nine img,
+body .base-description .base-description-paragraph-ten img,
+body .base-description .base-description-paragraph-eleven img,
+body .base-description .base-description-paragraph-twelve img,
+body .base-description .base-description-paragraph-thirteen img {
+  width: 100%;
+}
+body .base-description .base-description-paragraph-eight a {
+  text-decoration: none;
+}
+body .base-description .base-description-paragraph-eight a:visited {
+  color: #afbbc8;
+}
+body .base-description .base-description-paragraph-eight a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+body .base-description .base-description-paragraph-eight img {
+  margin: 0 0 10px;
+}
+body .base-description .base-description-paragraph-eight .second-eight-paragraph {
+  margin: 0;
+}
+body .base-description .base-description-paragraph-thirteen img {
+  margin: 0 0 10px;
+}
+body .base-description .base-description-paragraph-thirteen .second-thirteen-paragraph {
+  margin: 0;
+}
+body .base-description .base-description-paragraph-fourteen {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+body .base-description .base-description-paragraph-fourteen p {
+  margin: 0 0 15px;
+  text-align: justify;
+  text-indent: 2.5%;
+}
+body .base-description .base-description-paragraph-fourteen img {
+  margin: 0 0 10px;
+  width: 100%;
+}
+body .base-description .base-description-paragraph-fourteen .third-fourteen-paragraph {
+  margin: 0 0 20px;
+}
+body .base-description .base-description-paragraph-fourteen .fourth-fourteen-paragraph {
+  margin: 0;
+}
+body .base-description #upButton {
+  background-color: #afbbc8;
+  border: none;
+  border-radius: 10px;
+  bottom: 20px;
+  color: #0e3c5e;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+  outline: none;
+  padding: 15px;
+  position: fixed;
+  right: 30px;
+  z-index: 2;
+}
+body .base-description #upButton:hover {
+  background-color: #0581ed;
+  border: 1px solid white;
+  color: white;
+}
+body .footer {
+  align-items: center;
+  background-color: #636d76;
+  color: #afbbc8;
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  padding: 0 20px;
+}/*# sourceMappingURL=postStyle.css.map */
