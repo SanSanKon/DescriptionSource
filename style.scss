@@ -11,6 +11,7 @@ body {
     justify-content: space-between;
     height: 100vh;
     @media screen and (max-width: 530px) {
+        height: 105vh;
         overflow-x: hidden;
     }
     .nav {
