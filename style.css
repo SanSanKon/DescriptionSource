@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   background-color: #0e3c5e;
   display: flex;
