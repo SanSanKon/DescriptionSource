@@ -166,7 +166,8 @@
             <p class="third-fourteen-paragraph">
                 However, we need only second part of this code, that goes after ‘/’. 
                 And to add it to our createStore lets add a new variable called 
-                const composeEnchancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+                const composeEnchancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ 
+                || compose;
                 And then we add it to our sreateStore:
                 const store = createStore(
                 allReducers,
