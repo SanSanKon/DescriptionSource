@@ -167,13 +167,9 @@
                 However, we need only second part of this code, that goes after ‘/’. 
                 And to add it to our createStore lets add a new variable called 
                 const composeEnchancer;
-                And then we add it to our sreateStore:
-                const store = createStore(
-                allReducers,
-                composeEnchancer(applyMiddleware(thunk)),
-                );
+                And then we add it to our sreateStore;
                 If we have multiple middlewares to use, we just can add them with comma after the ‘thunk’:
-                composeEnchancer(applyMiddleware(thunk, logger, and etc.)). 
+                (thunk, logger, and etc.)). 
             </p>
             <p class="fourth-fourteen-paragraph">
                 Everybody, who read this little descripton - thank you a lot.
