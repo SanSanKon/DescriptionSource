@@ -171,7 +171,22 @@
                 If we have multiple middlewares to use, we just can add them with comma after the ‘thunk’:
                 (thunk, logger, and etc.)). 
             </p>
-            <p class="fourth-fourteen-paragraph">
+        </div>
+        <div class="base-description-paragraph-fifteen">
+            <p>
+                14. The last step: we also need to add a little more code of redux to the one more component – 
+                to the modal window that you saw at the picture 2 (CitizenAddConnection.js) – where we printed 
+                the full name of person to whom we wanted to add one more kinship. As this component is also 
+                complicated I will show only part of it – that is connected with redux.
+            </p>
+            <img src="../images/CitizenAddConnection.jpg" alt="citizen add connection" />
+            <p>
+                As I mentioned above, dispatch sends the ‘type’ of action to the reducer and reducer modifies 
+                the state based on type of action. So, if our ‘POST’ request was successful, then the modal 
+                window with the message that connection was successfully created will appear. To make it 
+                disappear by the some time later I have also added setTimeOut function. 
+            </p>
+            <p class="third-fifteen-paragraph">
                 Everybody, who read this little descripton - thank you a lot.
                 As I will develop and add more functionality to my application, 
                 I will also share and describe it here. See you later. 

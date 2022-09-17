@@ -154,6 +154,23 @@ body .base-description .base-description-paragraph-fourteen .third-fourteen-para
 body .base-description .base-description-paragraph-fourteen .fourth-fourteen-paragraph {
   margin: 0;
 }
+body .base-description .base-description-paragraph-fifteen {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+body .base-description .base-description-paragraph-fifteen p {
+  margin: 0 0 15px;
+  text-align: justify;
+  text-indent: 2.5%;
+}
+body .base-description .base-description-paragraph-fifteen img {
+  margin: 0 0 10px;
+  width: 100%;
+}
+body .base-description .base-description-paragraph-fifteen .third-fifteen-paragraph {
+  margin: 0;
+}
 body .base-description #upButton {
   background-color: #afbbc8;
   border: none;

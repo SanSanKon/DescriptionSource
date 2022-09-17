@@ -134,6 +134,23 @@ body {
                 margin: 0;
             }
         }
+        .base-description-paragraph-fifteen {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            p {
+                margin: 0 0 15px;
+                text-align: justify;
+                text-indent: 2.5%;
+            }
+            img {
+                margin: 0 0 10px;
+                width: 100%;
+            }
+            .third-fifteen-paragraph {
+                margin: 0;
+            }
+        }
         #upButton {
             background-color: #afbbc8;
             border: none;
