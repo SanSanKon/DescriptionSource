@@ -14,7 +14,6 @@ body .nav {
   color: #afbbc8;
   display: flex;
   flex-direction: row;
-  height: 5vh;
   justify-content: center;
   margin: 0 0 20px;
   width: 100%;
@@ -23,7 +22,7 @@ body .nav .nav-ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0 20px;
+  padding: 10px 20px;
   width: 100%;
 }
 body .nav .nav-ul li {
@@ -33,10 +32,11 @@ body .nav .nav-ul li:hover {
   color: white;
 }
 body .nav .nav-ul li a {
+  color: white;
   text-decoration: none;
 }
 body .nav .nav-ul li a:visited {
-  color: #afbbc8;
+  color: white;
 }
 body .nav .nav-ul li:hover {
   cursor: pointer;
@@ -94,6 +94,7 @@ body .base-description .base-description-paragraph-ten p,
 body .base-description .base-description-paragraph-eleven p,
 body .base-description .base-description-paragraph-twelve p,
 body .base-description .base-description-paragraph-thirteen p {
+  font-size: 1.25rem;
   margin: 0 0 15px;
   text-align: justify;
   text-indent: 2.5%;
@@ -128,6 +129,12 @@ body .base-description .base-description-paragraph-eight img {
 body .base-description .base-description-paragraph-eight .second-eight-paragraph {
   margin: 0;
 }
+body .base-description .base-description-paragraph-ten a {
+  text-decoration: underline;
+}
+body .base-description .base-description-paragraph-ten a:visited {
+  color: #afbbc8;
+}
 body .base-description .base-description-paragraph-thirteen img {
   margin: 0 0 10px;
 }
@@ -140,6 +147,7 @@ body .base-description .base-description-paragraph-fourteen {
   margin: 0;
 }
 body .base-description .base-description-paragraph-fourteen p {
+  font-size: 1.25rem;
   margin: 0 0 15px;
   text-align: justify;
   text-indent: 2.5%;
@@ -160,6 +168,7 @@ body .base-description .base-description-paragraph-fifteen {
   margin: 0;
 }
 body .base-description .base-description-paragraph-fifteen p {
+  font-size: 1.25rem;
   margin: 0 0 15px;
   text-align: justify;
   text-indent: 2.5%;

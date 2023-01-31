@@ -13,7 +13,6 @@ body {
         color: #afbbc8;
         display: flex;
         flex-direction: row;
-        height: 5vh;
         justify-content: center;
         margin: 0 0 20px;
         width: 100%;
@@ -21,7 +20,7 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            padding: 0 20px;
+            padding: 10px 20px;
             width: 100%;
             li {
                 list-style: none;
@@ -29,9 +28,10 @@ body {
                     color: white;
                 }
                 a {
+                    color: white;
                     text-decoration: none;
                     &:visited {
-                        color: #afbbc8;
+                        color: white;
                     }
                 }
                 &:hover {
@@ -80,6 +80,7 @@ body {
             flex-direction: column;
             margin: 0 0 30px;
             p {
+                font-size: 1.25rem;
                 margin: 0 0 15px;
                 text-align: justify;
                 text-indent: 2.5%;
@@ -106,6 +107,14 @@ body {
                 margin: 0;
             }
         }
+        .base-description-paragraph-ten {
+            a {
+                text-decoration: underline;
+                &:visited {
+                    color: #afbbc8;
+                }
+            }
+        }
         .base-description-paragraph-thirteen {
             img {
                 margin: 0 0 10px;
@@ -119,6 +128,7 @@ body {
             flex-direction: column;
             margin: 0;
             p {
+                font-size: 1.25rem;
                 margin: 0 0 15px;
                 text-align: justify;
                 text-indent: 2.5%;
@@ -139,6 +149,7 @@ body {
             flex-direction: column;
             margin: 0;
             p {
+                font-size: 1.25rem;
                 margin: 0 0 15px;
                 text-align: justify;
                 text-indent: 2.5%;

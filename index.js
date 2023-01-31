@@ -1,5 +1,6 @@
 //Burger menu
 const burger = document.querySelector('.burger');
+const mainNav = document.querySelector('.nav');
 const nav = document.querySelector('.nav-ul');
 const navLinks = document.querySelectorAll('nav-ul li');
  
@@ -11,6 +12,11 @@ const navSlide = () => {
 
          //Toggle Nav
         nav.classList.toggle('nav-active');
+        // if (nav.classList.contains('nav-active')) {
+        //     mainNav.style.background = '#0e3c5e';
+        // } else {
+        //     mainNav.style.background = '#636d76';
+        // }
 
     //Animate Links
         navLinks.forEach((link, index) => {
